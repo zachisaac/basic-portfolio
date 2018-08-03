@@ -4,7 +4,7 @@
 }
  
 body {
-    background-image: url("full-bloom.png");
+    background-image: url(/Users/zachisaac/Desktop/basic-portfolio/assets/images/full-bloom.png);
     margin: auto;
 }
 
@@ -101,6 +101,7 @@ hr {
     font-size: small;
     font-family: sans-serif;
     color: white;
+    bottom: 0;
 }
 
 .grid { 
