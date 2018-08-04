@@ -86,24 +86,6 @@ p {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-hr {
-    margin-top: 110px;
-    border: 0px;
-    padding: 3px;
-    background-color: #4aaaa5;
-}
-
-.footer {
-    padding: 30px;
-    padding-bottom: 3px;
-    background-color: grey;
-    text-align: center;
-    font-size: small;
-    font-family: sans-serif;
-    color: white;
-    bottom: 0;
-}
-
 .grid { 
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -127,4 +109,78 @@ h3 {
     color: white;
     font-family: serif;
     width: 200px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 150px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.form-name {
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+
+.form-email {
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+
+.form-message {
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+
+.form-button {
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+#name {
+    width: 775px;
+    height: 20px;
+}
+
+#email {
+    width: 775px;
+    height: 20px;
+}
+
+#message {
+    width: 775px;
+    height: 20px;
+}
+
+#form-button {
+    border: 1px solid grey;
+    padding: 10px 30px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: large;
+}
+
+hr {
+    margin-top: 110px;
+    border: 0px;
+    padding: 3px;
+    background-color: #4aaaa5;
+}
+
+.footer {
+    padding: 30px;
+    padding-bottom: 3px;
+    background-color: grey;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    color: white;
+    bottom: 0;
 }
